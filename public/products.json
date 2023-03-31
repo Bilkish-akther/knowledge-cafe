@@ -1,0 +1,46 @@
+[
+  {
+    "id": 1,
+    "authorName": "Mr. Raju",
+    "blogTitle": "How to get your first job as a self-taught programmer",
+    "blogCoverImage": "https://burst.shopifycdn.com/photos/developer-coding-in-php.jpg?width=925&format=pjpg&exif=1&iptc=1",
+    "authorImage": "https://burst.shopifycdn.com/photos/developer-coding-in-php.jpg?width=925&format=pjpg&exif=1&iptc=1",
+    "readTime": "23 min read",
+    "publishDate": "Mar 14 (4 Days ago)",
+    "tag": "#beginners #programming",
+    "btn": "Mark as read"
+  },
+  {
+    "id": 2,
+    "authorName": "Mrs. Setara",
+    "blogTitle": "How to get your first job as a self-taught programmer",
+    "blogCoverImage": "https://burst.shopifycdn.com/photos/javascript-with-laptop-code.jpg?width=925&format=pjpg&exif=1&iptc=1",
+    "authorImage":"https://burst.shopifycdn.com/photos/reading-about-code-on-hackernoon.jpg?width=925&format=pjpg&exif=1&iptc=1",
+    "readTime": "25 min read",
+    "publishDate": "Mar 14 (4 Days ago)",
+    "tag": "#beginners #programming",
+    "btn": "Mark as read"
+  },
+  {
+    "id": 3,
+    "authorName": "Mina Mostofa",
+    "blogTitle": "How to get your first job as a self-taught programmer",
+    "blogCoverImage": "https://burst.shopifycdn.com/photos/woman-leans-on-desk-with-books.jpg?width=925&format=pjpg&exif=1&iptc=",
+    "authorImage":"https://burst.shopifycdn.com/photos/reading-about-code-on-hackernoon.jpg?width=925&format=pjpg&exif=1&iptc=1",
+    "readTime": "2 min read",
+    "publishDate": "Mar 14 (4 Days ago)",
+    "tag": "#beginners #programming",
+    "btn": "Mark as read"
+  },
+  {
+    "id": 4,
+    "authorName": "Samantha Lee",
+    "blogTitle": "How to get your first job as a self-taught programmer",
+    "blogCoverImage": "https://burst.shopifycdn.com/photos/iphone-qr-reader.jpg?width=925&format=pjpg&exif=1&iptc=1",
+    "authorImage": "https://burst.shopifycdn.com/photos/reading-about-code-on-hackernoon.jpg?width=925&format=pjpg&exif=1&iptc=1",
+    "readTime": "12 min read",
+    "publishDate": "Mar 14 (4 Days ago)",
+    "tag": "#beginners #programming",
+    "btn": "Mark as read"
+  }
+]

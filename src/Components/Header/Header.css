@@ -1,0 +1,17 @@
+.header {
+    height: 80px;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+.line{
+    color: #111111;
+    ;
+    padding-left: 60px;
+    padding-right: 80px;
+    color: rgb(233, 129, 10);
+    
+}
