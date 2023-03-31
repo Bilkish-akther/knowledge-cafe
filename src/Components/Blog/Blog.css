@@ -1,4 +1,4 @@
-/* .blog-container{
+.blog-container{
     display: grid;
     grid-template-columns: 4fr 1fr;
     padding-left: 80px;
@@ -12,4 +12,4 @@
 }
 .bookmark{
     background-color: aliceblue;
-} */
+}
