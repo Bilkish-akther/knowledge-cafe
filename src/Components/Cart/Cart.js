@@ -1,5 +1,7 @@
 import React from 'react';
-import './Cart.css';
+import './Cart.css';import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faBookmark } from '@fortawesome/free-solid-svg-icons'
+
 
 
 
@@ -23,7 +25,7 @@ const Cart = (props) => {
 
           </div>
         </div>
-        <p>{readTime}</p>
+        <p>{readTime} <button className='bookmark-btn' ><FontAwesomeIcon icon={faBookmark} /></button></p>
       </div>
 
       <div className='extra-info'>
