@@ -1,15 +1,98 @@
-.blog-container{
+.blog-container {
     display: grid;
-    grid-template-columns: 4fr 1fr;
+    grid-template-columns: 3fr 1.8fr;
     padding-left: 80px;
     padding-right: 80px;
-}
-.spent{
+    padding: 20px 0px;
+  }
+  .spent {
     margin: 5px;
     padding: 10px;
-    background-color:  aliceblue;
-   
-}
-.bookmark{
     background-color: aliceblue;
-}
+  }
+  .bookmark {
+    background-color: aliceblue;
+  }
+  
+  .blogImage {
+    width: 855px;
+    height: 400px;
+    border-radius: 10px;
+  }
+  .author {
+    height: 60px;
+    width: 60px;
+    border-radius: 45px;
+  }
+  h2 {
+    font-family: "Times New Roman";
+    padding: 8px 0px;
+  }
+  .author-details {
+    padding: 20px 10px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  p {
+    color: rgb(103, 103, 104);
+  }
+  .bookmark-duration button {
+    border: 0px;
+    background-color: white;
+    color: rgb(103, 103, 104);
+    font-size: 20px;
+  }
+  .bookmark-duration button:hover {
+    color: black;
+    cursor: pointer;
+  }
+  .bookmark-duration {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+  }
+  .first-section {
+    display: flex;
+    align-items: center;
+    padding: 20px 0px;
+  }
+  .blog-details {
+    margin-bottom: 40px;
+  
+    padding: 20px 10px;
+    border-radius: 10px;
+    box-shadow: 1px 2px 9px #888888;
+  }
+  .h1 {
+    text-align: start;
+    padding-left: 10px;
+  }
+  .p {
+    display: flex;
+    gap: 10px;
+    padding: 20px 10px;
+  }
+  .read-btn {
+    border: 0px;
+    background-color: white;
+    cursor: pointer;
+    color: rgb(111, 0, 255);
+  }
+  
+  @media only screen and (max-width: 576px) {
+    .blog-details {
+      padding: 20px 15px;
+    }
+    .blogImage {
+      height: 222px;
+      width: 323px;
+    }
+    .blog-container {
+      display: block;
+    }
+    .blog-container{
+      grid-template-columns: 4fr 1fr;
+    }
+  }
+  

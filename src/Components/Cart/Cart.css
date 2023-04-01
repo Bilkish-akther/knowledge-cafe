@@ -2,10 +2,12 @@
     width: fit-content;
     height: fit-content;
     padding-top: 5px;
-    margin: auto;
-      
-       
+    margin: auto;   
    }
+.class-container{
+    margin-left: 100px;
+    width: 60%;
+}
    .author{
        width: 50px;
        height: 50px;
@@ -31,7 +33,7 @@
    } 
    .extra-info{
        text-align: left;
-       padding-left: 80px;
+       
        padding-right: 85px;
    }
    .read-btn{
@@ -39,3 +41,73 @@
     background-color: transparent;
     text-decoration: underline;
    }
+
+
+
+
+
+
+   .blogs{
+    margin-top: 60px;
+    width: 80%;
+    margin: 60px auto auto auto;
+    padding: 0px 20px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 60px;
+}
+.blogs-list{
+    width: 90%;
+    padding: 40px 20px 0px 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 2px #888888;
+}
+.blog-cart{
+    background-color: white;
+    box-shadow: 0px 0px 2px #888888;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px 0px;
+    height:fit-content;
+    position: sticky;
+    top: 50px;
+    
+}
+.name-container{
+
+    margin:  auto;
+}
+@media only screen and (max-width: 576px) {
+    .blogs{
+        width: 97%;
+        padding: 0px;
+        grid-template-columns: repeat(1,1fr) ;
+    }
+    .blogs-list{
+        width: 93%;
+        padding: 40px 11px 0px 11px;
+
+    }
+    .toast-container{
+        width: 100px;
+    }
+    .class-container{
+        margin-left: 0px;
+        width: 100%;
+       
+    }
+    .blockTimeContainer{
+        margin-right: 10px;
+    }
+    .author-name{
+        font-size: 14px;
+        margin: 0;
+        padding: 0;
+    }
+    .author-details{
+        justify-content: space-evenly;
+    }
+    .extra-info{
+        margin-left: 20px;
+    }
+  }

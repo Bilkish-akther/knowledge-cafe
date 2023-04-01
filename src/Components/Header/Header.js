@@ -3,9 +3,7 @@ import './Header.css';
 import Ellipse from '../../image/Ellipse 1.png';
 const Header = () => {
     return (
-        <nav>
-            
-            
+        <nav className='header-container'>
             <div  className='header'>
                <h2>Knowledge Cafe</h2>
                 <img src={Ellipse} alt="" />

@@ -18,26 +18,21 @@ const Cart = (props) => {
 
 
   return (
-    <div>
-
+    <div className='class-container'>
       <img src={blogCoverImage} className='blogImage' alt="" />
       <div className='author-details'>
         <div className='author-info'>
           <img src={authorImage} className='author' alt="" />
-          <div>
-            <h4> {authorName} <br /> <small>{publishDate}</small> </h4>
+          <div className='name-container'>
+            <h4 className='author-name'> {authorName} <br /> <small>{publishDate}</small> </h4>
           </div>
         </div>
-        <p>{readTime} <button className='bookmark-btn' onClick={() => handleSaveCart(props.product)} ><FontAwesomeIcon icon={faBookmark} /></button> <ToastContainer /></p>
-
+        <p className='blockTimeContainer'>{readTime} <button className='bookmark-btn' onClick={() => handleSaveCart(props.product)} ><FontAwesomeIcon icon={faBookmark} /></button> <ToastContainer /></p>
       </div>
-
       <div className='extra-info'>
         <h2>{blogTitle}</h2>
         <p>{tag}</p>
-        
         <button className="read-btn" onClick={() => handleMarkAsRead(parseInt(readTime))}>Mark as read</button>
-
       </div>
       
       
